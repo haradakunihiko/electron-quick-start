@@ -1,4 +1,4 @@
-# !how to install 
+# how to install 
 
 
 start you server on localhost:8080, or modify main.js.

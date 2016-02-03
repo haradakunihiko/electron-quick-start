@@ -1,3 +1,16 @@
+# !how to install 
+
+
+start you server on localhost:8080, or modify main.js.
+
+```
+npm install
+
+HOME=~/.electron-gyp node-gyp rebuild --target=0.36.4 --arch=x64 --dist-url=https://atom.io/download/atom-shell
+
+npm start
+```
+
 # electron-quick-start
 
 **Clone and run for a quick way to see an Electron in action.**

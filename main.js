@@ -6,8 +6,13 @@ const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
+var addon = require('./build/Release/addon');
+console.log(addon.add(3,5));
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
+console.log(process.versions.node);
+console.log(process.versions.chrome);
+console.log(process.versions.electron);
 let mainWindow;
 
 function createWindow () {
